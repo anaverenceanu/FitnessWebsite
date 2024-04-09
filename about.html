@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fitness Equipment | Personal Training | Forward Fitness Club</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Forward Fitness Club has state-of-the-art fitness equipment and provides personal training.">
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="shortcut icon" sizes="192x192" href="images/android-chrome-192.png">
+    </head>
+
+    <body>
+
+        <div id="container">
+            <!--Mobile nav-->
+            <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="template.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="classes.html">Classes</a>
+                    <a href="nutrition.html">Nutrition</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <a class="menu-icon" onlinck="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+            </nav>
+        </div>
+
+        <!-- Use the header area for the website name or logo-->
+        <header id="ffc-logo">
+            <a href="index.html"><img src="images/fitness1.jpeg" alt="Forward fitness image"></a>
+        </header>
+
+
+        <header>
+            <a href="index.html"><img src="images/fitness1.jpeg" alt="Forward fitness image"></a>
+        
+
+          <!--Use the nav area to add hyperlinks to other pages within the website-->
+            
+        </header>
+
+        <!--Use the nav area to add hyperlinks to other pages within the website-->
+        <nav>
+            <ul> 
+                <li><a href="template.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="classes.html">Classes</a></li> 
+                <li><a href="nutrition.html">Nutrition</a></li> 
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!--Use the main ares to add the main content of the webpage-->
+        <main>
+
+            <video controls poster="images/fitness4.jpeg">
+                <source src="media/ffc_video.mp4" type="video/mp4">
+                <source src="media/ffc_video.webm" type="video/webm">
+                <track src="media/captions.vtt" kind="captions" srclang="en" label="Captions">
+                <track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
+                <p>Your browser does not support the video element.</p>
+            </video>
+            <section id="weights">
+
+                <h1>Weights</h1>
+                <img src="images/fitness3.jpeg" alt="weights" height="300" class="round">
+                <p>Our facilities includes a weight training area with several weight options. Build lean muscle with weights and improve your core with weight traning.</p>
+                <ul class="tablet-desktop">
+                    <li>Dumbbelles</li>
+                    <li>Kettle bells</li>
+                    <li>Barbelles</li>
+                </ul>
+
+            </section>
+
+            <section id="cardio" class="tablet-desktop">
+                <h1>Cardio</h1>
+                <img src="images/fitness2.jpeg" alt="cardio" height="300" class="round">
+                <p>Burn fat through cardio workouts. Experts recommend 150 minutes of cardio each week. We have several equipment choices for your workout</p>
+            </section>
+
+            <section id="training" class="tablet-desktop">
+                <h1>Personal Training</h1>
+                <img src="images/fitness4.jpeg" alt="dumbbelles" height="300" class="round">
+                <p>Our certified personal trainers work with you to help you obtain your fitness goals and track your progress. Personal training bas many benefits</p>
+            </section>
+
+            <section id="exercises" class="tablet-desktop">
+                <h1>Common Exercises</h1>
+                <p>The following are common exercises that we encourage our clients to do as part of their daily exercise routine.</p>
+                <dl>
+                    <dt>Burpee</dt>
+                    <dd>Burpees are a great, full body exercise to increase your strength and endurance. Begin in a standing position, drop into a squat and extend your hands forward, kick your feet back and then forward again quickly, and then jump up from a squatted position. <span class="viewer" onlick="burpees()">View Example</span></dd>
+
+                    <dt>Plank</dt>
+                    <dd>Planks build your core strength. To perform a plank, get in a push up position and rest your forearms on the floor. Hold the position as long as you can.<span class="viewer" onlick="plank()">View Example</span> </dd>
+
+                    <dt>Mountain climbers</dt>
+                    <dd>Mountain climbers are a good cardio exercise. Place your hands on the floor in a push up position, then bring one knee up to your chest and then switch as quickly as you can (as though you are climbing a mountain).<span class="viewer" onlick="mountain()">View Example</span> </dd>
+                </dl>
+
+                <video controls id="example">
+                    <source id="vid-src" src="vid" type="video/mp4">
+                    <track id="despsrc" src="des" kind="descriptions" srclang="en" label="English Descriptions">
+                    <p>Your browser does not support the video element</p>
+                </video>
+
+                <p>For more information about how to stay active, visit the <a href="https://www.hhs.gov/fitness/be-active/index.html" target="_blank" class="external-link">U.S. Department of Health and Human Services</a> </p>
+            </section>
+        </main>
+
+        <footer>
+            <p> &copy; Copyright 2023. All rights reserved.</p>
+            <p> <a href="mailto:forwardfitness@club.net"> forwardfitness@club.net</a></p>
+        </footer>
+
+        <script src="scripts/script.js"></script>
+
+    </body>
+
+</html>
